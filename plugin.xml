@@ -11,7 +11,8 @@
 	<dependency id="org.apache.cordova.file-transfer" version="0.4.8" />
 	<dependency id="org.apache.cordova.network-information" version="0.2.14" />
 	<dependency id="org.chromium.zip" version="2.1.0" />
-	<dependency id="cordova-plugin-fastrde-md5" version="0.2.0" />	
+	<dependency url="https://github.com/mhudnell/cordova-plugin-fastrde-md5" commit="master" />
+<!-- 	<dependency id="cordova-plugin-fastrde-md5" version="0.2.0" />	 -->
 
 	<js-module src="www/downloader.min.js" name="downloader">
 		<clobbers target="downloader" />
