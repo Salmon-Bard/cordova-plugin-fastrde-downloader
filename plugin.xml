@@ -12,7 +12,7 @@
 	<dependency id="cordova-plugin-network-information" version="2.0.0" />
 	<dependency id="cordova-plugin-zip" version="3.1.0" />
 <!-- 	<dependency id="cordova-plugin-fastrde-md5" version="0.2.0" />	 -->
-	<dependency id="detg.md5chksum" url="https://github.com/etg-dsictr/cordova-plugin-fastrde-md5" commit="master" />
+	<dependency id="etg.md5chksum" url="https://github.com/etg-dsictr/cordova-plugin-fastrde-md5" commit="master" />
 
 	<js-module src="www/downloader.min.js" name="downloader">
 		<clobbers target="downloader" />
